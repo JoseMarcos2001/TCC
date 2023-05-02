@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro cliente</title>
+    <script defer src="scriptCliente.js"></script>
+</head>
+<body>
+    <form>
+        <label>Nome:</label>
+        <input type="text" name="nome"><br>
+      
+        <label>Sobrenome:</label>
+        <input type="text" name="sobrenome"><br>
+      
+        <label>E-mail:</label>
+        <input type="email" name="email"><br>
+      
+        <label>Telefone:</label>
+        <input type="tel" name="telefone"><br>
+      
+        <button type="submit">Salvar</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class='justify-center'>
+        <button id="inicio" type="submit" onclick="voltar()">VOLTAR</button>
+      </div>
+</body>
+</html>
